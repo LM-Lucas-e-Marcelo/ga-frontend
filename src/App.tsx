@@ -1,9 +1,8 @@
+import './global.css'
+import { AppRoutes } from './routes/app-routes'
+
 function App() {
-  return (
-    <div>
-      <h1>Config</h1>
-    </div>
-  )
+  return <AppRoutes />
 }
 
 export default App

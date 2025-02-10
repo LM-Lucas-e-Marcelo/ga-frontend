@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'NeueHaasDisplayBold';
+  src: url('/fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayMedium';
+  src: url('/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayThin';
+  src: url('/fonts/NeueHaasDisplayThin.ttf') format('truetype');
+  font-weight: thin;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayNormal';
+  src: url('/fonts/NeueHaasDisplayNormal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #1a2c57;
+  --color-secondary: #213a8e;
+  --font-primary: 'NeueHaasDisplayNormal', sans-serif;
+  --font-secondary: 'NeueHaasDisplayMedium', sans-serif;
+  --font-tertiary: 'NeueHaasDisplayBold', sans-serif;
+}
