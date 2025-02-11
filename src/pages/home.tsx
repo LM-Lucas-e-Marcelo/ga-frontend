@@ -1,3 +1,11 @@
+import { Hero } from '../components/hero'
+import { Products } from '../components/products'
+
 export function Home() {
-  return <h1>Home</h1>
+  return (
+    <div className="w-full flex flex-col">
+      <Hero />
+      <Products />
+    </div>
+  )
 }

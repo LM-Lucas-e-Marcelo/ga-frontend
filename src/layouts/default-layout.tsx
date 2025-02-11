@@ -4,9 +4,9 @@ import { Footer } from '../components/footer'
 
 export const DefaultLayout = () => {
   return (
-    <div>
+    <div className="bg-zinc-100 w-full h-screen">
       <Header />
-      <div>
+      <div className="pt-[90px] min-h-[calc(100%-25px)]">
         <Outlet />
       </div>
       <Footer />
