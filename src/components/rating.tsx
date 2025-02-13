@@ -51,7 +51,7 @@ export function Rating() {
 
   return (
     <motion.div
-      className="w-full py-10 bg-gradient-to-b from-zinc-100 to-white"
+      className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white"
       variants={container}
       initial="hidden"
       animate="visible"

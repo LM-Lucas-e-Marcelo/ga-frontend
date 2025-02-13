@@ -1,6 +1,6 @@
 export const YouKnow = () => {
   return (
-    <div className="w-full py-10">
+    <div className="w-full py-20 bg-gradient-to-b from-white to-zinc-100">
       <div className="w-full max-w-[1440px] mx-auto px-8 flex flex-col items-center">
         <h1 className="text-4xl font-bold text-secondary text-center">
           Você sabe o que é consórcio?
