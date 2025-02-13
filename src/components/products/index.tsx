@@ -1,3 +1,4 @@
+import { PRODUCTS } from '../../constants/products'
 import { ProductCard } from './product-card'
 
 export const Products = () => {
@@ -8,9 +9,9 @@ export const Products = () => {
           Produtos
         </h1>
         <div className="flex items-center justify-center gap-10">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          {PRODUCTS.map((product) => (
+            <ProductCard {...product} />
+          ))}
         </div>
       </div>
     </div>
