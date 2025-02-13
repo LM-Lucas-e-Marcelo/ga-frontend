@@ -1,6 +1,7 @@
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/footer/logo.png'
 import google from '../../assets/footer/google.png'
 import norton from '../../assets/footer/norton.png'
+import { PRODUCTS } from '../../constants/products'
 
 export const Footer = () => {
   return (
@@ -17,7 +18,12 @@ export const Footer = () => {
             <a href="mailto:###">contato@cardelik.com.br</a>
           </div>
         </section>
-        <h1 className="text-white">Serviços</h1>
+        <div className="text-white flex flex-col items-center gap-2">
+          <h1 className="text-xl text-center mb-1">Serviços</h1>
+          {PRODUCTS.map((product) => (
+            <a key={product.id}>{product.title}</a>
+          ))}
+        </div>
         <section className="flex flex-col gap-2 p-5 rounded-md mt-[50px]">
           <h1 className="text-xl text-white">Segurança e Qualidade</h1>
           <div className="flex gap-6 w-full justify-center sm:justify-normal items-center">

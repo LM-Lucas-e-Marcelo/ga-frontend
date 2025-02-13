@@ -31,6 +31,8 @@
 @theme {
   --color-primary: #1a2c57;
   --color-secondary: #213a8e;
+  --color-tertiary: #dddcda;
+  --color-quaternary: #a5998a;
   --font-primary: 'NeueHaasDisplayNormal', sans-serif;
   --font-secondary: 'NeueHaasDisplayMedium', sans-serif;
   --font-tertiary: 'NeueHaasDisplayBold', sans-serif;
