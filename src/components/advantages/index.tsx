@@ -5,7 +5,9 @@ export const Advantages = () => {
   return (
     <div className="w-full py-20 bg-gradient-to-b from-primary to-secondary">
       <div className="w-full max-w-[1440px] mx-auto px-8 flex flex-col items-center">
-        <h1 className="text-4xl font-bold text-white text-center">Vantagens</h1>
+        <h1 className="text-4xl font-bold text-white text-center font-secondary">
+          Vantagens
+        </h1>
         <div className="flex items-center justify-center gap-10 mt-10">
           {ADVANTAGES.map((advantage) => (
             <AdvantagesCard key={advantage.title} {...advantage} />

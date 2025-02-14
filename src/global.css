@@ -29,6 +29,7 @@
 }
 
 @theme {
+  --font-display: 'NeueHaasDisplayNormal', sans-serif;
   --color-primary: #1a2c57;
   --color-secondary: #213a8e;
   --color-tertiary: #dddcda;

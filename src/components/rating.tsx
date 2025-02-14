@@ -58,7 +58,7 @@ export function Rating() {
       ref={ref}
     >
       <div className="flex flex-col gap-3 p-10 max-w-[1440px] m-auto">
-        <h1 className="text-4xl font-bold text-center mb-10 text-secondary">
+        <h1 className="text-4xl font-bold text-center mb-10 text-secondary font-secondary">
           Veja o que as pessoas estão dizendo sobre nós
         </h1>
         <div className="flex items-center justify-center gap-5 flex-wrap">

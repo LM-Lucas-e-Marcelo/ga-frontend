@@ -8,7 +8,7 @@ export const WhoAreWe = () => {
         id="whoAreWe"
       >
         <div className="sm:max-w-[50%]">
-          <strong className="text-2xl sm:text-3xl mb-5 block text-secondary">
+          <strong className="text-2xl sm:text-3xl mb-5 block text-secondary font-secondary">
             Quem Somos
           </strong>
           <p>
