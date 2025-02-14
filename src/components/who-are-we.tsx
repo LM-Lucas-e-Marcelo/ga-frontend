@@ -1,8 +1,8 @@
-import image from '../assets/team.png'
+import image from '../assets/ceo.jpg'
 
 export const WhoAreWe = () => {
   return (
-    <div className="w-full py-20 bg-gradient-to-b from-white to-zinc-100">
+    <div className="w-full py-10 bg-gradient-to-b from-white to-zinc-100">
       <div
         className="w-full max-w-[1440px] flex items-center p-10 gap-3 justify-around flex-wrap"
         id="whoAreWe"
@@ -20,7 +20,7 @@ export const WhoAreWe = () => {
             velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
-        <img src={image} width={400} alt="sobre nós" className="rounded-lg" />
+        <img src={image} width={250} alt="sobre nós" className="rounded-lg" />
       </div>
     </div>
   )
