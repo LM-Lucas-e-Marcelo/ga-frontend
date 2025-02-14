@@ -1,4 +1,4 @@
-export { IoIosStar, IoIosArrowDown } from 'react-icons/io'
+export { IoIosStar, IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'
 export { HiOutlineCurrencyDollar } from 'react-icons/hi2'
 export { IoCarSportOutline, IoLogoWhatsapp } from 'react-icons/io5'
 export { TbPlaneDeparture } from 'react-icons/tb'
