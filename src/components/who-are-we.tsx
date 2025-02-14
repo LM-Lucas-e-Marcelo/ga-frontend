@@ -20,7 +20,12 @@ export const WhoAreWe = () => {
             velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
-        <img src={image} width={250} alt="sobre nós" className="rounded-lg" />
+        <img
+          src={image}
+          width={250}
+          alt="sobre nós"
+          className="rounded-[50%]"
+        />
       </div>
     </div>
   )
