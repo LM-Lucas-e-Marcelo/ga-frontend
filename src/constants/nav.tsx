@@ -3,9 +3,15 @@ export const NAV_BAR_ITEMS = {
     link: '/',
   },
   Produtos: {
-    link: '/products',
+    link: '#products',
+  },
+  Serviços: {
+    link: '#services',
+  },
+  'Perguntas frequentes': {
+    link: '#questions',
   },
   'Quem somos nós': {
-    link: '/whoami',
+    link: '#who-are-we',
   },
 }

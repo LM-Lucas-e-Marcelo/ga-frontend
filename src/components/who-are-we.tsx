@@ -2,7 +2,10 @@ import image from '../assets/ceo.jpg'
 
 export const WhoAreWe = () => {
   return (
-    <div className="w-full py-10 bg-gradient-to-b from-white to-zinc-100">
+    <div
+      id="who-are-we"
+      className="w-full py-10 bg-gradient-to-b from-white to-zinc-100"
+    >
       <div
         className="w-full max-w-[1440px] flex items-center p-10 gap-3 justify-around flex-wrap"
         id="whoAreWe"

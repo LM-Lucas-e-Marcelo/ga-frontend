@@ -2,10 +2,17 @@ import { IoIosArrowForward } from '../../assets/icons'
 import { tv, VariantProps } from 'tailwind-variants'
 
 const questionCardContent = tv({
-  base: 'w-full p-3 bg-tertiary rounded-bl-md rounded-br-md overflow-hidden max-h-[0px] p-0 transition-all duration-300 text-left',
+  base: 'w-full p-3 bg-white rounded-bl-md rounded-br-md overflow-hidden max-h-[0px] p-0 transition-all duration-300 text-left',
+  slots: {
+    header:
+      'flex justify-between bg-gradient-to-b from-zinc-100 to-white p-3 rounded-md',
+  },
   variants: {
     isOpen: {
-      true: 'max-h-[500px] p-3',
+      true: {
+        base: 'max-h-[500px] p-3',
+        header: 'rounded-br-none rounded-bl-none',
+      },
     },
   },
 })
@@ -16,6 +23,8 @@ interface QuestionCardProps extends CardVarians {
   title: string
   description: string
 }
+
+const { base, header } = questionCardContent()
 export const QuestionCard = ({
   title,
   isOpen,
@@ -23,12 +32,12 @@ export const QuestionCard = ({
 }: QuestionCardProps) => {
   return (
     <div className="w-full h-full">
-      <header className="flex justify-between bg-secondary p-3 rounded-md">
-        <span className="text-lg text-white">{title}</span>{' '}
-        <IoIosArrowForward size={30} className="text-white" />
+      <header className={header({ isOpen })}>
+        <span className="text-lg text-secondary">{title}</span>{' '}
+        <IoIosArrowForward size={30} className="text-secondary" />
       </header>
       <div
-        className={questionCardContent({ isOpen })}
+        className={base({ isOpen })}
         dangerouslySetInnerHTML={{ __html: description }}
       />
     </div>

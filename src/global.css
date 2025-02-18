@@ -38,3 +38,7 @@
   --font-secondary: 'NeueHaasDisplayMedium', sans-serif;
   --font-tertiary: 'NeueHaasDisplayBold', sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}

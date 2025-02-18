@@ -25,10 +25,13 @@ export const Questions = () => {
   >('contemplation')
 
   return (
-    <div className="w-full py-20 bg-gradient-to-b from-white to-zinc-100">
+    <div
+      id="questions"
+      className="w-full py-20 bg-gradient-to-b from-secondary to-primary"
+    >
       <div className="max-w-[1440px] mx-auto px-8 flex items-center flex-col">
         <p className="text-lg text-zinc-400">Tire suas Dúvidas</p>
-        <h1 className="text-4xl font-bold text-secondary text-center font-secondary">
+        <h1 className="text-4xl font-bold text-white text-center font-secondary">
           Perguntas frequentes
         </h1>
         <div className="flex gap-4 mt-10">
