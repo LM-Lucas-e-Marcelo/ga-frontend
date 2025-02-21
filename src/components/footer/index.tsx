@@ -9,9 +9,6 @@ export const Footer = () => {
       <div className="p-10 border-t border-zinc-400 w-full flex justify-around sm:flex-row flex-col items-center gap-3 sm:items-start sm:gap-0">
         <section className="flex flex-col items-center gap-3 min-w-[260px]">
           <img src={logo} alt="Via" className="w-[150px]" />
-          <p className="max-w-[400px] text-center text-white">
-            Slogan lorem ipsum
-          </p>
 
           <div className="flex flex-col w-full items-center text-white">
             <strong>Fale conosco</strong>

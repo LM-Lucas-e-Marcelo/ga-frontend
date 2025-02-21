@@ -2,7 +2,6 @@ import {
   FaRegMoneyBillAlt,
   MdOutlineSecurity,
   LuBadgePercent,
-  TfiReload,
   BsPiggyBank,
 } from '../assets/icons'
 
@@ -22,11 +21,5 @@ export const ADVANTAGES = [
   {
     title: 'Planejamento financeiro inteligente',
     icon: FaRegMoneyBillAlt,
-  },
-  {
-    title: 'Diversos produtos',
-    description:
-      'Imóveis, Veículos pesados ​​e leves, Maquinário, Serviços, Cirurgia plástica e Ouro',
-    icon: TfiReload,
   },
 ]
