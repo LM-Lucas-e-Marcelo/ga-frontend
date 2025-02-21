@@ -16,9 +16,11 @@ export const Footer = () => {
           </div>
         </section>
         <div className="text-white flex flex-col items-center gap-2">
-          <h1 className="text-xl text-center mb-1">Produtos</h1>
+          <h1 className="text-xl text-center mb-1">Modalidades</h1>
           {PRODUCTS.map((product) => (
-            <a key={product.id}>{product.title}</a>
+            <a href={`/modality/${product.id}`} key={product.id}>
+              {product.title}
+            </a>
           ))}
         </div>
         <section className="flex flex-col gap-2 p-5 rounded-md mt-[50px]">
