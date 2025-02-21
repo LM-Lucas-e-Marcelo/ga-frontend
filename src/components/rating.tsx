@@ -7,22 +7,25 @@ const starsArray = Array.from({ length: starsQuantity })
 
 const customers = [
   {
-    name: 'Simone Gomes',
-    comments: '97',
-    photos: '18',
-    message: 'Ótimo atendimento. Agilidade.',
-  },
-  {
-    name: 'kfame22',
-    comments: '2',
-    photos: '0',
-    message: 'Bom atendimento e serviço prestado, recomendo.',
-  },
-  {
-    name: 'Marcelo Martins',
+    name: 'Edu Marques',
     comments: '4',
+    photos: '1',
+    message:
+      'Gratidão demais pelo comprometimento e profissionalismo, além de um excelente atendimento, supriu TODAS as minhas expectativas, curtindo demais essa nova fase.',
+  },
+  {
+    name: 'Priscila Farias',
+    comments: '3',
     photos: '0',
-    message: 'Ótima',
+    message:
+      'Adorei o atendimento! Consegui achar a melhor solução para comprar  meu primeiro imóvel 👏🏻👏🏻👏🏻',
+  },
+  {
+    name: 'Georgia Valentim',
+    comments: '5',
+    photos: '0',
+    message:
+      'Amei o ambiente!!!!! Atendimento impecável!!!!! Recomendo para todos!!!! Super simpáticos e atenciosos!!!!! Parabéns Cardelik vocês são excelentes! 🙏🏽🙏🏽 e já indiquei para toda minha família!',
   },
 ]
 
@@ -65,18 +68,17 @@ export function Rating() {
           {customers.map((customer) => (
             <motion.div
               variants={item}
-              className="bg-zinc-100 rounded-md p-4 w-[300px] h-[180px]"
+              className="bg-zinc-100 rounded-md p-4 w-[300px] h-[280px]"
               key={customer.name}
             >
               <strong className="text-xl">{customer.name}</strong>
-              <p>
-                {customer.comments} comentários - {customer.photos} fotos
-              </p>
+              <p>{customer.comments} comentários</p>
               <span className="flex gap-2 items-center text-yellow-400">
                 {starsArray.map((_, index) => (
                   <IoIosStar key={index} size={20} />
                 ))}
               </span>
+
               <p className="mt-5">{customer.message}</p>
             </motion.div>
           ))}

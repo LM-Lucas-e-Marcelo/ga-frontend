@@ -37,7 +37,7 @@ export const Footer = () => {
         </section>
       </div>
       <div className="flex items-center justify-center p-6 border-t border-secondary text-white">
-        ©2024 Cardelik. Todos os direitos reservados.
+        ©2025 Cardelik. Todos os direitos reservados.
       </div>
     </div>
   )

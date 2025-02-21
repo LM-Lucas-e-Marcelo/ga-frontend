@@ -12,7 +12,7 @@ export const WhoAreWe = () => {
       >
         <div className="sm:max-w-[50%]">
           <strong className="text-2xl sm:text-3xl mb-5 block text-secondary font-secondary">
-            Quem somos {'(Visão da Cardelik)'}
+            Quem somos
           </strong>
           <p className="text-lg">
             A Cardelik é uma ponte entre você e suas grandes realizações.
