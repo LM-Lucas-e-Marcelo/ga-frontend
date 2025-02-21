@@ -1,4 +1,5 @@
 import { IconType } from 'react-icons'
+import { NavLink } from 'react-router'
 
 interface ProductCardProps {
   thumb: string
@@ -6,7 +7,12 @@ interface ProductCardProps {
   id: number
   icon: IconType
 }
-export const ProductCard = ({ thumb, title, icon: Icon }: ProductCardProps) => {
+export const ProductCard = ({
+  id,
+  thumb,
+  title,
+  icon: Icon,
+}: ProductCardProps) => {
   return (
     <div className="w-[280px] rounded-md h-[300px] flex flex-col items-center justify-center relative overflow-hidden cursor-pointer hover:scale-110 transition-all">
       <img src={thumb} alt={title} className="h-[450px] object-cover" />
@@ -15,9 +21,12 @@ export const ProductCard = ({ thumb, title, icon: Icon }: ProductCardProps) => {
         <Icon size={40} />
       </span>
       <p className="text-white text-lg mt-20 absolute text-center">{title}</p>
-      <button className="absolute bottom-0 bg-gradient-to-b from-primary to-secondary w-full p-2 text-white text-lg hover:opacity-90">
+      <NavLink
+        to={`/modality/${id}`}
+        className="absolute bottom-0 bg-gradient-to-b from-primary to-secondary w-full p-3 text-white text-lg hover:opacity-90 text-center"
+      >
         Saiba mais
-      </button>
+      </NavLink>
     </div>
   )
 }

@@ -1,29 +1,6 @@
-import { useState } from 'react'
-import { Button } from '../form/button'
-import { ContemplationQuestions } from './contemplation-questions'
-import { DocumentationQuestions } from './documentation-questions'
-
-const categories = [
-  {
-    label: 'Contemplação',
-    value: 'contemplation',
-  },
-  {
-    label: 'Documentação',
-    value: 'documentation',
-  },
-]
-
-const QuestionTypes = {
-  contemplation: <ContemplationQuestions />,
-  documentation: <DocumentationQuestions />,
-}
+import { QuestionsComponent } from './questions'
 
 export const Questions = () => {
-  const [questionsType, setQuestionsType] = useState<
-    'contemplation' | 'documentation'
-  >('contemplation')
-
   return (
     <div
       id="questions"
@@ -34,19 +11,8 @@ export const Questions = () => {
         <h1 className="text-4xl font-bold text-white text-center font-secondary">
           Perguntas frequentes
         </h1>
-        <div className="flex gap-4 mt-10">
-          {categories.map(({ label, value }) => (
-            <Button
-              key={value}
-              color={value === questionsType ? 'primary' : 'secondary'}
-              onClick={() => setQuestionsType(value as never)}
-            >
-              {label}
-            </Button>
-          ))}
-        </div>
         <section className="w-full gap-4 mt-10 transition-all">
-          {QuestionTypes[questionsType]}
+          <QuestionsComponent />
         </section>
       </div>
     </div>

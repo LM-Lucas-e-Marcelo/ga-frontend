@@ -6,9 +6,15 @@ export const Advantages = () => {
     <div className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white">
       <div className="w-full max-w-[1440px] mx-auto px-8 flex flex-col items-center">
         <h1 className="text-4xl font-bold text-secondary text-center font-secondary">
-          Vantagens
+          Vantagens de adquirir com a Cardelik
         </h1>
-        <div className="flex items-center justify-center gap-10 mt-10">
+        <p className="text-zinc-900 text-lg text-center mt-6 max-w-[800px]">
+          Na Cardelik, oferecemos soluções inteligentes para quem deseja
+          realizar grandes conquistas de forma segura e planejada. Com diversas
+          opções de consórcio, financiamento e antecipação de FGTS, garantimos
+          que você encontre a melhor alternativa para:
+        </p>
+        <div className="flex items-center justify-center gap-10 mt-10 flex-wrap">
           {ADVANTAGES.map((advantage) => (
             <AdvantagesCard key={advantage.title} {...advantage} />
           ))}

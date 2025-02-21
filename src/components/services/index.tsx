@@ -11,6 +11,11 @@ export const Services = () => {
         <h1 className="text-4xl font-bold text-white text-center font-secondary">
           Produtos
         </h1>
+        <p className="text-white text-lg text-center mt-6 max-w-[800px]">
+          Com a Cardelik, você pode adquirir imóveis, veículos pesados e leves,
+          maquinário para seu negócio, serviços diversos, cirurgia plástica e
+          até ouro, tudo de forma planejada e sem burocracia.
+        </p>
         <div className="flex items-center justify-center gap-10 mt-10 flex-wrap">
           {SERVICES.map((advantage) => (
             <ServiceCard key={advantage.title} {...advantage} />

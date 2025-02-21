@@ -2,32 +2,31 @@ import {
   FaRegMoneyBillAlt,
   MdOutlineSecurity,
   LuBadgePercent,
-  FiUsers,
+  TfiReload,
+  BsPiggyBank,
 } from '../assets/icons'
 
 export const ADVANTAGES = [
   {
-    title: 'Invista com segurança',
-    description:
-      'Todo o processo é regulamentado pelo Banco Central do Brasil.',
+    title: 'Segurança e transparência',
     icon: MdOutlineSecurity,
   },
   {
-    title: 'Melhores condições',
-    description:
-      'Com o consórcio você adquire bens como casa, carro ou viagens sem pagar juros ou entrada.',
+    title: 'Consórcio com mais chances de contemplação',
     icon: LuBadgePercent,
   },
   {
-    title: 'Apoio de especialistas',
-    description:
-      'Todo o processo é regulamentado pelo Banco Central do Brasil.',
-    icon: FiUsers,
+    title: 'Antecipação de FGTS',
+    icon: BsPiggyBank,
   },
   {
-    title: 'Funcionamento simples',
-    description:
-      'Contribua mensalmente em um grupo e seja contemplado por sorteio ou lance.',
+    title: 'Planejamento financeiro inteligente',
     icon: FaRegMoneyBillAlt,
+  },
+  {
+    title: 'Diversos produtos',
+    description:
+      'Imóveis, Veículos pesados ​​e leves, Maquinário, Serviços, Cirurgia plástica e Ouro',
+    icon: TfiReload,
   },
 ]

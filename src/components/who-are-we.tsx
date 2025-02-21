@@ -12,15 +12,15 @@ export const WhoAreWe = () => {
       >
         <div className="sm:max-w-[50%]">
           <strong className="text-2xl sm:text-3xl mb-5 block text-secondary font-secondary">
-            Quem Somos
+            Quem somos {'(Visão da Cardelik)'}
           </strong>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-            <br /> <br /> Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur.
+          <p className="text-lg">
+            A Cardelik é uma ponte entre você e suas grandes realizações.
+            Especialistas em consórcios, antecipação de FGTS e crédito, soluções
+            financeiras seguras, personalizadas e acessíveis. Nossa missão é
+            transformar sonhos em conquistas reais, garantindo um atendimento
+            próximo, transparente e eficiente. Conte conosco para fazer parte da
+            sua jornada rumo as suas realizações.
           </p>
         </div>
         <img
