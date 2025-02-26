@@ -1,4 +1,4 @@
-import image from '../assets/ceo.jpg'
+import image from '../assets/logo.svg'
 
 export const WhoAreWe = () => {
   return (
@@ -23,12 +23,7 @@ export const WhoAreWe = () => {
             sua jornada rumo as suas realizações.
           </p>
         </div>
-        <img
-          src={image}
-          width={250}
-          alt="sobre nós"
-          className="rounded-[50%]"
-        />
+        <img src={image} width={250} alt="sobre nós" />
       </div>
     </div>
   )

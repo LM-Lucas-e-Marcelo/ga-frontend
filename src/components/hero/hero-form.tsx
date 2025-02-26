@@ -19,6 +19,10 @@ const options = [
     name: 'Veículos',
     value: 'Veículos',
   },
+  {
+    name: 'Consignado',
+    value: 'Consignado',
+  },
 ]
 export const HeroForm = () => {
   return (
@@ -32,7 +36,7 @@ export const HeroForm = () => {
         <Input label="Valor*" />
         <Input label="Telefone*" />
         <Input label="E-mail" type="email" />
-        <Button>SIMULAR CONSÓRCIO</Button>
+        <Button>SIMULAR CRÉDITO</Button>
       </form>
     </div>
   )
