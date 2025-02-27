@@ -7,7 +7,7 @@ export const WhoAreWe = () => {
       className="w-full py-10 bg-gradient-to-b from-white to-zinc-100"
     >
       <div
-        className="w-full max-w-[1440px] flex items-center p-10 gap-3 justify-around flex-wrap"
+        className="w-full max-w-[1440px] flex items-center p-10 gap-10 justify-around flex-wrap"
         id="whoAreWe"
       >
         <div className="sm:max-w-[50%]">
@@ -23,7 +23,7 @@ export const WhoAreWe = () => {
             sua jornada rumo as suas realizações.
           </p>
         </div>
-        <img src={image} width={250} alt="sobre nós" />
+        <img src={image} className="md:w-[250px] w-[180px]" alt="sobre nós" />
       </div>
     </div>
   )

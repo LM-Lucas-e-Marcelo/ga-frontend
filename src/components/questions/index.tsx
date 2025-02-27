@@ -11,7 +11,7 @@ export const Questions = () => {
         <h1 className="text-4xl font-bold text-white text-center font-secondary">
           Perguntas frequentes
         </h1>
-        <section className="w-full gap-4 mt-10 transition-all">
+        <section className="w-full gap-4 mt-10 transition-all flex flex-col">
           <QuestionsComponent />
         </section>
       </div>
