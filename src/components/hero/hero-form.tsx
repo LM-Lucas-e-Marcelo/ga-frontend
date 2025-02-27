@@ -26,7 +26,7 @@ const options = [
 ]
 export const HeroForm = () => {
   return (
-    <div className="bg-white w-[400px] rounded-md p-4 shadow-lg mt-[-100px] md:mt-0">
+    <div className="bg-white w-[400px] rounded-md p-4 shadow-lg">
       <h1 className="text-2xl font-bold text-secondary mb-5 text-center">
         Você está perto de realizar
         <br />o seu projeto de vida.
