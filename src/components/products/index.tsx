@@ -14,7 +14,7 @@ export const Products = () => {
         <h1 className="text-4xl font-bold text-secondary text-center mb-10 font-secondary">
           Modalidade
         </h1>
-        <div className="flex items-start justify-center gap-10">
+        <div className="flex items-start justify-center gap-10 flex-wrap">
           {PRODUCTS.map((product) => (
             <ProductCard
               setSelectedId={setSelectedId}

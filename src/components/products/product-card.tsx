@@ -33,7 +33,7 @@ export const ProductCard = ({
     setSelectedId((prevState) => (prevState === id ? null : id))
   }
   return (
-    <div className="w-[280px] rounded-md min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden cursor-pointer transition-all bg-white">
+    <div className="w-[280px] rounded-md min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden transition-all bg-white">
       <img src={thumb} alt={title} className="object-cover" />
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-primary opacity-60 z-0" />
       <span className="w-24 h-24 bg-white opacity-80 rounded-full flex items-center justify-center p-4 text-[#2a4c7f] z-5 absolute top-[60px]">
@@ -48,7 +48,7 @@ export const ProductCard = ({
       </p>
       <button
         onClick={handleSelect}
-        className="bottom-0 bg-gradient-to-b from-primary to-secondary w-full p-3 text-white text-lg hover:opacity-90 text-center z-10"
+        className="cursor:pointer bottom-0 bg-gradient-to-b from-primary to-secondary w-full p-3 text-white text-lg hover:opacity-90 text-center z-10"
       >
         {selectedId === id ? 'Fechar' : 'Saiba mais'}
       </button>
