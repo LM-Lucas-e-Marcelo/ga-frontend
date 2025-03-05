@@ -53,7 +53,7 @@ export const HeroForm = () => {
   })
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
-    const whatsappNumber = '48996901911'
+    const whatsappNumber = '48988757617'
     const message = `Olá, me chamo ${data.name} e gostaria de simular um crédito: \n - Tipo: ${data.type} \n - Valor: R$ ${data.value} \n - Telefone para contato: ${data.phone}${data.email ? `\n email para contato: ${data.email}` : ''}`
     const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`
 

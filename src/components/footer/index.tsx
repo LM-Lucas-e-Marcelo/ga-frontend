@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="text-white flex flex-col items-center gap-2">
           <h1 className="text-xl text-center mb-1">Modalidades</h1>
           {PRODUCTS.map((product) => (
-            <a href={`/modality/${product.id}`} key={product.id}>
+            <a href="#modality" key={product.id}>
               {product.title}
             </a>
           ))}
