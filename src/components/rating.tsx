@@ -47,7 +47,7 @@ export function Rating() {
   const item = {
     hidden: { y: 20, opacity: 0 },
     visible: {
-      y: isInView ? 0 : 20,
+      y: 0,
       opacity: 1,
     },
   }
@@ -57,10 +57,9 @@ export function Rating() {
       className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white"
       variants={container}
       initial="hidden"
-      animate="visible"
-      ref={ref}
+      animate={isInView ? 'visible' : 'hidden'}
     >
-      <div className="flex flex-col gap-3 p-10 max-w-[1440px] m-auto">
+      <div ref={ref} className="flex flex-col gap-3 p-10 max-w-[1440px] m-auto">
         <h1 className="text-4xl font-bold text-center mb-10 text-secondary font-secondary">
           Veja o que as pessoas estão dizendo sobre nós
         </h1>

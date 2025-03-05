@@ -6,9 +6,16 @@ interface SelectProps extends ComponentProps<'select'> {
     value: string
   }>
   label: string
+  error?: string
 }
 
-export const Select = ({ options, name, label, ...rest }: SelectProps) => {
+export const Select = ({
+  options,
+  name,
+  label,
+  error,
+  ...rest
+}: SelectProps) => {
   return (
     <label htmlFor={name} className="flex flex-col">
       <span className="text-sm text-secondary">{label}</span>
@@ -23,6 +30,7 @@ export const Select = ({ options, name, label, ...rest }: SelectProps) => {
           </option>
         ))}
       </select>
+      <span className="text-sm text-red-500">{error}</span>
     </label>
   )
 }

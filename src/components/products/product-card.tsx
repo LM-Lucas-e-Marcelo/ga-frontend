@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction } from 'react'
 import { IconType } from 'react-icons'
 import { tv } from 'tailwind-variants'
+import { motion, MotionProps } from 'framer-motion'
 
 const productCardContent = tv({
   base: 'text-lg text-white z-10 overflow-hidden max-h-[0px] p-0 transition-all duration-300',
@@ -11,7 +12,7 @@ const productCardContent = tv({
   },
 })
 
-interface ProductCardProps {
+interface ProductCardProps extends MotionProps {
   thumb: string
   title: string
   id: number
@@ -28,12 +29,16 @@ export const ProductCard = ({
   description,
   selectedId,
   setSelectedId,
+  ...rest
 }: ProductCardProps) => {
   const handleSelect = () => {
     setSelectedId((prevState) => (prevState === id ? null : id))
   }
   return (
-    <div className="w-[280px] rounded-md min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden transition-all bg-white">
+    <motion.div
+      className="w-[280px] rounded-md min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden transition-all bg-white"
+      {...rest}
+    >
       <img src={thumb} alt={title} className="object-cover" />
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-primary opacity-60 z-0" />
       <span className="w-24 h-24 bg-white opacity-80 rounded-full flex items-center justify-center p-4 text-[#2a4c7f] z-5 absolute top-[60px]">
@@ -52,6 +57,6 @@ export const ProductCard = ({
       >
         {selectedId === id ? 'Fechar' : 'Saiba mais'}
       </button>
-    </div>
+    </motion.div>
   )
 }
