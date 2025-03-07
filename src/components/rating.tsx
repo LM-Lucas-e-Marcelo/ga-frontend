@@ -63,7 +63,7 @@ export function Rating() {
         <h1 className="text-4xl font-bold text-center mb-10 text-secondary font-secondary">
           Veja o que as pessoas estão dizendo sobre nós
         </h1>
-        <div className="flex items-center justify-center gap-5 flex-wrap">
+        <div className="w-full flex items-center justify-center gap-5 flex-wrap">
           {customers.map((customer) => (
             <motion.div
               variants={item}

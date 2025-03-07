@@ -28,11 +28,11 @@ export const Advantages = () => {
       variants={container}
       initial="hidden"
       animate={isInView ? 'visible' : 'hidden'}
-      className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white"
+      className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white px-4"
     >
       <div
         ref={ref}
-        className="w-full max-w-[1440px] mx-auto px-8 flex flex-col items-center"
+        className="w-full max-w-[1440px] mx-auto flex flex-col items-center"
       >
         <h1 className="text-4xl font-bold text-secondary text-center font-secondary">
           Vantagens de adquirir com a Cardelik
@@ -43,7 +43,7 @@ export const Advantages = () => {
           opções de consórcio, financiamento e antecipação de FGTS, garantimos
           que você encontre a melhor alternativa para:
         </p>
-        <div className="flex items-center justify-center gap-10 mt-10 flex-wrap">
+        <div className="w-full flex items-center justify-center gap-10 mt-10 flex-wrap">
           {ADVANTAGES.map((advantage) => (
             <AdvantagesCard
               key={advantage.title}

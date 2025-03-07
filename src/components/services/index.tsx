@@ -43,7 +43,7 @@ export const Services = () => {
           maquinário para seu negócio, serviços diversos, cirurgia plástica e
           até ouro, tudo de forma planejada e sem burocracia.
         </p>
-        <div className="flex items-center justify-center gap-10 mt-10 flex-wrap">
+        <div className="w-full flex items-center justify-center gap-10 mt-10 flex-wrap">
           {SERVICES.map((advantage) => (
             <ServiceCard
               key={advantage.title}
