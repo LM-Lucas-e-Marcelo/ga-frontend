@@ -5,7 +5,7 @@ import logo from '../../assets/footer/logo.png'
 export const Hero = () => {
   return (
     <div className="w-full md:h-screen bg-blue-600 flex bg-[url(/hero.png)] md:bg-center bg-top-left bg-cover overflow-x-hidden">
-      <div className="w-full max-w-[1440px] mx-auto px-8 flex items-center justify-center py-10 flex-wrap md:justify-between gap-6">
+      <div className="w-full max-w-[1440px] mx-auto px-8 flex items-center justify-center py-10 flex-wrap md:justify-around gap-6">
         <motion.div
           className="flex flex-col gap-8 md:items-start items-center"
           initial={{ opacity: 0, x: -200 }}
