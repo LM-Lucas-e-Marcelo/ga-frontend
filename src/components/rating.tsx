@@ -67,7 +67,7 @@ export function Rating() {
           {customers.map((customer) => (
             <motion.div
               variants={item}
-              className="bg-zinc-100 rounded-md p-4 w-[300px] h-[280px]"
+              className="bg-zinc-100 p-4 w-[300px] h-[280px]"
               key={customer.name}
             >
               <strong className="text-xl">{customer.name}</strong>

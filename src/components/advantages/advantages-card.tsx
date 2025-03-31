@@ -14,7 +14,7 @@ export const AdvantagesCard = ({
 }: AdvantagesCardProps) => {
   return (
     <motion.div
-      className="bg-gradient-to-b from-secondary to-primary rounded-md flex flex-col gap-6 items-center justify-center p-1 h-[320px] max-w-[250px] w-full"
+      className="bg-gradient-to-b from-secondary to-primary flex flex-col gap-6 items-center justify-center p-1 h-[320px] max-w-[250px] w-full"
       {...rest}
     >
       <span className="text-white ">

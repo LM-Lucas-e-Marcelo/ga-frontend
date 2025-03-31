@@ -2,16 +2,15 @@ import { IoIosArrowForward } from '../../assets/icons'
 import { tv, VariantProps } from 'tailwind-variants'
 
 const questionCardContent = tv({
-  base: 'w-full p-3 bg-white rounded-bl-md rounded-br-md overflow-hidden max-h-[0px] p-0 transition-all duration-300 text-left',
+  base: 'w-full p-3 bg-white  overflow-hidden max-h-[0px] p-0 transition-all duration-300 text-left',
   slots: {
     header:
-      'flex justify-between bg-gradient-to-b from-zinc-100 to-white p-3 rounded-md',
+      'flex justify-between bg-gradient-to-b from-zinc-100 to-white p-3',
   },
   variants: {
     isOpen: {
       true: {
         base: 'max-h-[500px] p-3',
-        header: 'rounded-br-none rounded-bl-none',
       },
     },
   },

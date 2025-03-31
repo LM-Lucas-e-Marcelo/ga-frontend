@@ -1,5 +1,5 @@
 import { useInView, motion } from 'framer-motion'
-import image from '../assets/logo.svg'
+import image from '../assets/short-logo.png'
 import { useRef } from 'react'
 
 export const WhoAreWe = () => {
@@ -25,21 +25,16 @@ export const WhoAreWe = () => {
           <strong className="text-2xl sm:text-3xl mb-5 block text-secondary font-secondary">
             Quem somos
           </strong>
-          <p className="text-lg">
-            A Cardelik é uma ponte entre você e suas grandes realizações.
-            Especialistas em consórcios, antecipação de FGTS e crédito, soluções
-            financeiras seguras, personalizadas e acessíveis. Nossa missão é
-            transformar sonhos em conquistas reais, garantindo um atendimento
-            próximo, transparente e eficiente. Conte conosco para fazer parte da
-            sua jornada rumo as suas realizações.
-          </p>
+            <p className="text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
         </motion.div>
         <motion.img
           initial={{ opacity: 0, x: 200 }}
           animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : 200 }}
           transition={{ duration: 1 }}
           src={image}
-          className="md:w-[250px] w-[180px]"
+          className="md:w-[500px] w-[180px]"
           alt="sobre nós"
         />
       </div>

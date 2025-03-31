@@ -53,7 +53,7 @@ export const HeroForm = () => {
   })
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
-    const whatsappNumber = '48988757617'
+    const whatsappNumber = '48991626535'
     const message = `Olá, me chamo ${data.name} e gostaria de simular um crédito: \n - Tipo: ${data.type} \n - Valor: R$ ${data.value} \n - Telefone para contato: ${data.phone}${data.email ? `\n email para contato: ${data.email}` : ''}`
     const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(message)}`
 
@@ -62,12 +62,12 @@ export const HeroForm = () => {
 
   return (
     <motion.div
-      className="bg-white w-[400px] rounded-md p-4 shadow-lg"
+      className="bg-white w-[400px] p-4 shadow-lg"
       initial={{ opacity: 0, x: 200 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-2xl font-bold text-secondary mb-5 text-center">
+      <h1 className="text-2xl font-bold text-black mb-5 text-center">
         Você está perto de realizar
         <br />o seu projeto de vida.
       </h1>

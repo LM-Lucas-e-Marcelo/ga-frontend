@@ -15,7 +15,7 @@ export const ServiceCard = ({
 }: AdvantagesCardProps) => {
   return (
     <motion.div
-      className="bg-zinc-100 rounded-md flex flex-col gap-6 items-center justify-center p-1 h-[200px] max-w-[200px] w-full"
+      className="bg-zinc-100 flex flex-col gap-6 items-center justify-center p-1 h-[200px] max-w-[200px] w-full"
       {...rest}
     >
       {isPersonalized ? (

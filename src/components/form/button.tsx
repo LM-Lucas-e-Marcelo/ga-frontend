@@ -2,10 +2,10 @@ import { ComponentProps } from 'react'
 import { tv, VariantProps } from 'tailwind-variants'
 
 const button = tv({
-  base: 'w-full p-3 rounded-md cursor-pointer border border-secondary',
+  base: 'w-full p-3 cursor-pointer border border-black',
   variants: {
     color: {
-      primary: 'bg-secondary text-white hover:opacity-80',
+      primary: 'bg-black text-white hover:opacity-80',
       secondary: 'bg-white text-secondary hover:bg-secondary hover:text-white',
     },
   },

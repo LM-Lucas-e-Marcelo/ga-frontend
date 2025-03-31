@@ -7,7 +7,7 @@ export const YouKnow = () => {
         </h1>
         <p className="text-zinc-900 text-xl text-center max-w-[700px] mt-8">
           Oferecemos soluções completas para consórcio, financiamento e uso do
-          FGTS. Com a Cardelik, você tem o suporte necessário para investir de
+          FGTS. Com a G&A Consórcios, você tem o suporte necessário para investir de
           maneira estratégica e segura.
         </p>
       </div>

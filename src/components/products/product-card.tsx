@@ -36,7 +36,7 @@ export const ProductCard = ({
   }
   return (
     <motion.div
-      className="w-[280px] rounded-md min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden transition-all bg-white"
+      className="w-[280px] min-h-[200px] flex flex-col items-center justify-center relative overflow-hidden transition-all bg-white"
       {...rest}
     >
       <img src={thumb} alt={title} className="object-cover" />

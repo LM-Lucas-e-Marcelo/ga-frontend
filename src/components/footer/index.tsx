@@ -12,7 +12,7 @@ export const Footer = () => {
 
           <div className="flex flex-col w-full items-center text-white">
             <strong>Fale conosco</strong>
-            <a href="mailto:contato@cardelik.com.br">contato@cardelik.com.br</a>
+            <a href="mailto:contato@cardelik.com.br">contato@ga.com.br</a>
           </div>
         </section>
         <div className="text-white flex flex-col items-center gap-2">
@@ -36,7 +36,7 @@ export const Footer = () => {
         </section>
       </div>
       <div className="flex items-center justify-center p-6 border-t border-secondary text-white">
-        ©2025 Cardelik. Todos os direitos reservados.
+        ©2025 G&A Consórcios. Todos os direitos reservados.
       </div>
     </div>
   )

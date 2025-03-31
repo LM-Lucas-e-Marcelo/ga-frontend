@@ -39,7 +39,7 @@ export const Services = () => {
           Produtos
         </h1>
         <p className="text-white text-lg text-center mt-6 max-w-[800px]">
-          Com a Cardelik, você pode adquirir imóveis, veículos pesados e leves,
+          Com a G&A Consórcios, você pode adquirir imóveis, veículos pesados e leves,
           maquinário para seu negócio, serviços diversos, cirurgia plástica e
           até ouro, tudo de forma planejada e sem burocracia.
         </p>

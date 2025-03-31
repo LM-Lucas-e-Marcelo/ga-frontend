@@ -1,42 +1,42 @@
 @import 'tailwindcss';
 
 @font-face {
-  font-family: 'NeueHaasDisplayBold';
-  src: url('/fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-family: 'OverusedBold';
+  src: url('/fonts/OverusedBold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NeueHaasDisplayMedium';
-  src: url('/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+  font-family: 'OverusedMedium';
+  src: url('/fonts/OverusedMedium.ttf') format('truetype');
   font-weight: medium;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NeueHaasDisplayThin';
-  src: url('/fonts/NeueHaasDisplayThin.ttf') format('truetype');
+  font-family: 'OverusedSemiBold';
+  src: url('/fonts/OverusedSemiBold.ttf') format('truetype');
   font-weight: thin;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'NeueHaasDisplayNormal';
-  src: url('/fonts/NeueHaasDisplayNormal.ttf') format('truetype');
+  font-family: 'OverusedNormal';
+  src: url('/fonts/OverusedNormal.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @theme {
-  --font-display: 'NeueHaasDisplayNormal', sans-serif;
-  --color-primary: #1a2c57;
-  --color-secondary: #213a8e;
+  --font-display: 'OverusedNormal', sans-serif;
+  --color-primary: black;
+  --color-secondary: #27272a;
   --color-tertiary: #dddcda;
   --color-quaternary: #a5998a;
-  --font-primary: 'NeueHaasDisplayNormal', sans-serif;
-  --font-secondary: 'NeueHaasDisplayMedium', sans-serif;
-  --font-tertiary: 'NeueHaasDisplayBold', sans-serif;
+  --font-primary: 'OverusedNormal', sans-serif;
+  --font-secondary: 'OverusedMedium', sans-serif;
+  --font-tertiary: 'OverusedBold', sans-serif;
 }
 
 html {
