@@ -5,7 +5,7 @@ import logo from '../../assets/footer/logo.png'
 export const Hero = () => {
   return (
     <div className="w-full md:h-[93vh] bg-black flex bg-[url(/hero.jpg)] md:bg-center bg-top-left bg-cover overflow-x-hidden">
-      <div className='absolute left-0 bottom-0 bg-gradient-to-b from-zinc-800 to-black w-full h-screen opacity-85' />
+      <div className='absolute left-0 bottom-0 bg-gradient-to-r from-zinc-900 to-black w-full h-screen opacity-95' />
       <div className="w-full max-w-[1440px] mx-auto px-8 flex items-center justify-center py-10 flex-wrap md:justify-around gap-6 z-10">
         <motion.div
           className="flex flex-col gap-8 md:items-start items-center z-10"

@@ -25,7 +25,7 @@ const customers = [
     comments: '5',
     photos: '0',
     message:
-      'Amei o ambiente!!!!! Atendimento impecável!!!!! Recomendo para todos!!!! Super simpáticos e atenciosos!!!!! Parabéns Cardelik vocês são excelentes! 🙏🏽🙏🏽 e já indiquei para toda minha família!',
+      'Amei o ambiente!!!!! Atendimento impecável!!!!! Recomendo para todos!!!! Super simpáticos e atenciosos!!!!! Parabéns G&A vocês são excelentes! 🙏🏽🙏🏽 e já indiquei para toda minha família!',
   },
 ]
 

@@ -15,7 +15,7 @@ export const PRODUCTS = [
     title: 'Consórcios',
     icon: PiHouseLineBold,
     description:
-      'O consórcio é a opção mais inteligente para conquistar seu carro, imóvel ou moto sem pagar juros! Planeje-se, escolha o melhor plano para você e realize seus sonhos com a Cardelik.',
+      'O consórcio é a opção mais inteligente para conquistar seu carro, imóvel ou moto sem pagar juros! Planeje-se, escolha o melhor plano para você e realize seus sonhos com a G&A Consórcios.',
   },
   {
     id: 2,

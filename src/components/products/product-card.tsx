@@ -41,7 +41,7 @@ export const ProductCard = ({
     >
       <img src={thumb} alt={title} className="object-cover" />
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-primary opacity-60 z-0" />
-      <span className="w-24 h-24 bg-white opacity-80 rounded-full flex items-center justify-center p-4 text-[#2a4c7f] z-5 absolute top-[60px]">
+      <span className="w-24 h-24 bg-white opacity-80 rounded-full flex items-center justify-center p-4 text-zinc-900 z-5 absolute top-[60px]">
         <Icon size={40} />
       </span>
       <p className="text-white text-lg top-[180px] text-center z-10 absolute">

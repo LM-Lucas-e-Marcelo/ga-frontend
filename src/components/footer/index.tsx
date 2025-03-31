@@ -12,7 +12,7 @@ export const Footer = () => {
 
           <div className="flex flex-col w-full items-center text-white">
             <strong>Fale conosco</strong>
-            <a href="mailto:contato@cardelik.com.br">contato@ga.com.br</a>
+            <a href="mailto:contato@ga.com.br">contato@ga.com.br</a>
           </div>
         </section>
         <div className="text-white flex flex-col items-center gap-2">
