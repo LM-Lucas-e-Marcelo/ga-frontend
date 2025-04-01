@@ -7,8 +7,8 @@ export const Footer = () => {
   return (
     <div className="flex flex-col w-full bg-gradient-to-b from-secondary to-primary">
       <div className="p-10 border-t border-zinc-400 w-full flex justify-around sm:flex-row flex-col items-center gap-3 sm:items-start sm:gap-0">
-        <section className="flex flex-col items-center gap-3 min-w-[260px]">
-          <img src={logo} alt="Via" className="w-[150px]" />
+        <section className="flex flex-col items-center min-w-[260px]">
+          <img src={logo} alt="Via" className="w-[250px]" />
 
           <div className="flex flex-col w-full items-center text-white">
             <strong>Fale conosco</strong>

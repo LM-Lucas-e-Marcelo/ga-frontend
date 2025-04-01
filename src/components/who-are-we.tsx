@@ -34,7 +34,7 @@ export const WhoAreWe = () => {
           animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : 200 }}
           transition={{ duration: 1 }}
           src={image}
-          className="md:w-[500px] w-[180px]"
+          className="md:w-[500px] w-[400px]"
           alt="sobre nós"
         />
       </div>
