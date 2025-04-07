@@ -25,7 +25,7 @@ export const Products = () => {
 
   return (
     <motion.div
-      id="modality"
+      id="products"
       className="w-full md:py-20 py-26 bg-gradient-to-b from-zinc-100 to-white relative bg-[url(/hero.png)] bg-cover"
       ref={ref}
       variants={container}
