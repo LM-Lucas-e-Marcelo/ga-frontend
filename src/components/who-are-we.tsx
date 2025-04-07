@@ -7,7 +7,7 @@ export const WhoAreWe = () => {
 
   return (
     <div
-      id="who-are-we"
+      id="whoarewe"
       className="w-full bg-gradient-to-b from-white to-zinc-100 overflow-hidden relative pb-[120px]"
     >
       <div
@@ -19,7 +19,7 @@ export const WhoAreWe = () => {
           initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : -200 }}
           transition={{ duration: 1 }}
-          className="sm:max-w-[50%] flex flex-col gap-6 pb-[120px] pl-16"
+          className="sm:max-w-[50%] flex flex-col gap-6 pb-[120px] pl-16 pr-16 md:pr-0"
         >
           <strong className="text-2xl font-tertiary pt-10">
             Conheça mais sobre <br />a G&A Consórcios
