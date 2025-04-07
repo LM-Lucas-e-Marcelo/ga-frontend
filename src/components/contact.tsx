@@ -8,7 +8,7 @@ import {
 export const Contact = () => {
   return (
     <div className="w-full pt-20  bg-gradient-to-b from-white to-zinc-100">
-      <div className="w-full max-w-[1440px] mx-auto flex ">
+      <div className="w-full flex ">
         <div className="w-[50%] hidden md:block">
           <div className="h-[320px] bg-[url(/empresa-completa.png)] bg-cover bg-center" />
           <div className="h-[170px]" />
