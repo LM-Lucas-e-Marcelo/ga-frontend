@@ -14,9 +14,9 @@ export const CurrencyInput = ({
 }: CurrencyInputProps) => {
   return (
     <label htmlFor={name}>
-      <span className="text-sm text-black">{label}</span>
+      <span className="text-sm text-white">{label}</span>
       <Input
-        className="w-full bg-zinc-50 p-3 border border-black"
+        className="w-full bg-none p-3 border border-white text-white"
         name={name}
         decimalsLimit={2}
         prefix="R$"

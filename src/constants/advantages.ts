@@ -1,25 +1,19 @@
-import {
-  FaRegMoneyBillAlt,
-  MdOutlineSecurity,
-  LuBadgePercent,
-  BsPiggyBank,
-} from '../assets/icons'
+import { MdOutlineSecurity, LuBadgePercent } from '../assets/icons'
 
 export const ADVANTAGES = [
   {
     title: 'Segurança e transparência',
     icon: MdOutlineSecurity,
+    description: 'Você sabe exatamente onde está investindo',
   },
   {
-    title: 'Consórcio com mais chances de contemplação',
+    title: 'Menos burocráticas',
     icon: LuBadgePercent,
-  },
-  {
-    title: 'Antecipação de FGTS',
-    icon: BsPiggyBank,
+    description: 'Processo simples, direto e descomplicado',
   },
   {
     title: 'Planejamento financeiro inteligente',
-    icon: FaRegMoneyBillAlt,
+    icon: MdOutlineSecurity,
+    description: 'Conquiste seu bem sem apertar o orçamento',
   },
 ]

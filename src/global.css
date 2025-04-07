@@ -1,5 +1,32 @@
 @import 'tailwindcss';
 
+
+.cut-border {
+  position: relative;
+}
+
+.cut-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: black;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.cut-border::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: black;
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
 @font-face {
   font-family: 'OverusedBold';
   src: url('/fonts/OverusedBold.otf') format('opentype');

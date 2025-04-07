@@ -2,16 +2,13 @@ export const NAV_BAR_ITEMS = {
   Inicio: {
     link: '/',
   },
-  Modalidade: {
+  Produtos: {
     link: '#modality',
   },
-  Produtos: {
+  'Sobre nós': {
     link: '#products',
   },
-  'Perguntas frequentes': {
+  'Entre em contato': {
     link: '#questions',
-  },
-  'Quem somos nós': {
-    link: '#who-are-we',
   },
 }

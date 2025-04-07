@@ -14,18 +14,22 @@ export const AdvantagesCard = ({
 }: AdvantagesCardProps) => {
   return (
     <motion.div
-      className="bg-gradient-to-b from-secondary to-primary flex flex-col gap-6 items-center justify-center p-1 h-[320px] max-w-[250px] w-full"
+      className=" flex flex-col items-center justify-start max-w-[250px] w-full z-10 bg-white h-[300px]"
       {...rest}
     >
-      <span className="text-white ">
+      <span className="text-white bg-black w-full h-[150px] flex items-center justify-center">
         <Icon size={50} />
       </span>
-      <p className="text-white text-center max-w-[80%] text-xl">{title}</p>
-      {description && (
-        <p className="text-white text-center max-w-[80%] text-md">
-          {description}
-        </p>
-      )}
+      <div className="p-2 bg-white h-[160px] flex items-center flex-col mx-3 mt-[-20px]">
+        <strong className="text-zinc-900 text-center max-w-[80%] text-lg font-tertiary mb-2">
+          {title}
+        </strong>
+        {description && (
+          <p className="text-zinc-900 text-center max-w-[80%] text-md">
+            {description}
+          </p>
+        )}
+      </div>
     </motion.div>
   )
 }

@@ -7,14 +7,8 @@ export const Footer = () => {
   return (
     <div className="flex flex-col w-full bg-gradient-to-b from-secondary to-primary">
       <div className="p-10 border-t border-zinc-400 w-full flex justify-around sm:flex-row flex-col items-center gap-3 sm:items-start sm:gap-0">
-        <section className="flex flex-col items-center min-w-[260px]">
-          <img src={logo} alt="Via" className="w-[250px]" />
+        <img src={logo} alt="Via" className="w-[250px] my-auto" />
 
-          <div className="flex flex-col w-full items-center text-white">
-            <strong>Fale conosco</strong>
-            <a href="mailto:contato@ga.com.br">contato@ga.com.br</a>
-          </div>
-        </section>
         <div className="text-white flex flex-col items-center gap-2">
           <h1 className="text-xl text-center mb-1">Modalidades</h1>
           {PRODUCTS.map((product) => (
@@ -35,8 +29,9 @@ export const Footer = () => {
           </div>
         </section>
       </div>
-      <div className="flex items-center justify-center p-6 border-t border-secondary text-white">
-        ©2025 G&A Consórcios. Todos os direitos reservados.
+      <div className="flex items-center justify-center p-6 border-t border-secondary text-white text-center">
+        ©2025 G&A Consórcios. Todos os direitos reservados. | CNPJ:
+        47.221.475/0001-71
       </div>
     </div>
   )

@@ -62,17 +62,21 @@ export const HeroForm = () => {
 
   return (
     <motion.div
-      className="bg-white w-[400px] p-4 shadow-lg"
+      className=" w-[500px] h-[700px] p-4 shadow-lg z-10 bg-[url(/form.png)] md:bg-contain bg-cover bg-no-repeat bg-center flex items-center flex-col justify-center"
       initial={{ opacity: 0, x: 200 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-2xl font-bold text-black mb-5 text-center">
-        Você está perto de realizar
-        <br />o seu projeto de vida.
+      <h1 className="text-3xl leading-[30px] font-extrabold font-secondary text-white mb-[50px] text-center mt-[-40px]">
+        Simule o seu
+        <br />
+        consórcio
       </h1>
 
-      <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-3">
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="flex flex-col gap-3 w-[330px]mt-[-50px]"
+      >
         <Select
           options={options}
           label="Tipo*"

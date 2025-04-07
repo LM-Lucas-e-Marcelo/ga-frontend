@@ -28,22 +28,10 @@ export const Advantages = () => {
       variants={container}
       initial="hidden"
       animate={isInView ? 'visible' : 'hidden'}
-      className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white px-4"
+      className="w-full py-20 bg-gradient-to-b from-zinc-100 to-white px-4 relative overflow-hidden"
     >
-      <div
-        ref={ref}
-        className="w-full max-w-[1440px] mx-auto flex flex-col items-center"
-      >
-        <h1 className="text-4xl font-bold text-secondary text-center font-secondary">
-          Vantagens de adquirir com a G&A Consórcios
-        </h1>
-        <p className="text-zinc-900 text-lg text-center mt-6 max-w-[800px]">
-          Na G&A Consórcios, oferecemos soluções inteligentes para quem deseja
-          realizar grandes conquistas de forma segura e planejada. Com diversas
-          opções de consórcio, financiamento e antecipação de FGTS, garantimos
-          que você encontre a melhor alternativa para:
-        </p>
-        <div className="w-full flex items-center justify-center gap-10 mt-10 flex-wrap">
+      <div ref={ref} className="w-full flex flex-col items-center ">
+        <div className="w-full flex items-center justify-center gap-10 mt-10 flex-wrap ">
           {ADVANTAGES.map((advantage) => (
             <AdvantagesCard
               key={advantage.title}
@@ -52,6 +40,16 @@ export const Advantages = () => {
             />
           ))}
         </div>
+        <div className="w-full absolute top-0 bottom-0 left-0 right-0 grid grid-cols-3">
+          <div className=" h-full w-full" />
+          <div className=" h-full w-full border-l-2 border-r-2 border-zinc-600" />
+          <div className=" h-full w-full relative">
+            <div className="bg-black absolute bottom-0 left-0 right-0 h-[100px]" />
+          </div>
+        </div>
+        <p className="absolute text-8xl rotate-[-90deg] right-[-180px] bottom-[160px] text-zinc-500 opacity-60">
+          Vantagens
+        </p>
       </div>
     </motion.div>
   )

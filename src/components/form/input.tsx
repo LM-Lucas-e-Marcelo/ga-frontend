@@ -8,9 +8,9 @@ interface InputProps extends ComponentProps<'input'> {
 export const Input = ({ label, name, error, ...rest }: InputProps) => {
   return (
     <label htmlFor={name}>
-      <span className="text-sm text-black">{label}</span>
+      <span className="text-sm text-white">{label}</span>
       <input
-        className="w-full bg-zinc-50 p-3 border border-black"
+        className="w-full bg-none p-3 border border-white text-white"
         name={name}
         {...rest}
       />

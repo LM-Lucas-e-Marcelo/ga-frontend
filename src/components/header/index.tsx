@@ -12,12 +12,12 @@ export const Header = () => {
     setOpenMobileMenu((prevState) => !prevState)
 
   return (
-    <header className="bg-white px-4 fixed top-0 left-0 right-0 z-60 border-b border-zinc-200">
-      <div className="w-full flex h-[70px] items-center gap-[100px] max-w-[1440px] mx-auto px-[16px]">
-        <a href="/" className='mb-[-10px] ml-[-40px] md:ml-0'>
+    <header className="bg-white pl-8 fixed top-0 left-0 right-0 z-60 border-b border-zinc-200">
+      <div className="w-full flex h-[70px] items-center gap-[100px] justify-around">
+        <a href="/" className="mb-[-10px] ml-[-40px] md:ml-0">
           <img src={logo} alt="Logo" width={200} />
         </a>
-        <nav className="hidden md:flex">
+        <nav className="hidden md:flex ml-auto">
           <ul className="flex items-center gap-8 text-lg">
             {Object.entries(NAV_BAR_ITEMS).map(([key, value]) => (
               <li className="text-black hover:underline" key={key}>
@@ -26,7 +26,7 @@ export const Header = () => {
             ))}
           </ul>
         </nav>
-        <div className="flex ml-auto gap-4">
+        <div className="flex gap-4">
           <ContactButton />
           {openMobileMenu ? (
             <button

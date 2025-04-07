@@ -18,11 +18,11 @@ export const Select = ({
 }: SelectProps) => {
   return (
     <label htmlFor={name} className="flex flex-col">
-      <span className="text-sm text-black">{label}</span>
+      <span className="text-sm text-white">{label}</span>
       <select
         name={name}
         {...rest}
-        className="w-full bg-zinc-50 p-3 border border-black"
+        className="w-full bg-none text-white p-3 border border-white"
       >
         {options.map(({ name, value }) => (
           <option key={value} value={value}>
