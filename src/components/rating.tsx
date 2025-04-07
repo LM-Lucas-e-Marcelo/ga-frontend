@@ -7,25 +7,24 @@ const starsArray = Array.from({ length: starsQuantity })
 
 const customers = [
   {
-    name: 'Edu Marques',
+    name: 'gean maycon',
     comments: '4',
     photos: '1',
-    message:
-      'Gratidão demais pelo comprometimento e profissionalismo, além de um excelente atendimento, supriu TODAS as minhas expectativas, curtindo demais essa nova fase.',
+    message: 'Lugar moderno, equipe prestativa e simpáticos.',
   },
   {
-    name: 'Priscila Farias',
+    name: 'Thays Santos ofc',
     comments: '3',
     photos: '0',
     message:
-      'Adorei o atendimento! Consegui achar a melhor solução para comprar  meu primeiro imóvel 👏🏻👏🏻👏🏻',
+      'Profissionais que respondem rápido, de acordo com a necessidade do cliente, Local aconchegante e agradável. Uma equipe muito top 🔝. Parabéns pelo profissionalismo, competência e qualidade!',
   },
   {
-    name: 'Georgia Valentim',
+    name: 'Thabata Catao',
     comments: '5',
     photos: '0',
     message:
-      'Amei o ambiente!!!!! Atendimento impecável!!!!! Recomendo para todos!!!! Super simpáticos e atenciosos!!!!! Parabéns G&A vocês são excelentes! 🙏🏽🙏🏽 e já indiquei para toda minha família!',
+      'Um ambiente maravilhoso, confortável, moderno e que supre as necessidades que são buscadas. Equipe excelente.',
   },
 ]
 
@@ -70,8 +69,7 @@ export function Rating() {
               className="bg-zinc-100 p-4 w-[300px] h-[280px]"
               key={customer.name}
             >
-              <strong className="text-xl">{customer.name}</strong>
-              <p>{customer.comments} comentários</p>
+              <strong className="text-xl mb-2 block">{customer.name}</strong>
               <span className="flex gap-2 items-center text-yellow-400">
                 {starsArray.map((_, index) => (
                   <IoIosStar key={index} size={20} />
