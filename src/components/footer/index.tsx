@@ -10,7 +10,7 @@ export const Footer = () => {
         <img src={logo} alt="Via" className="w-[250px] my-auto" />
 
         <div className="text-white flex flex-col items-center gap-2">
-          <h1 className="text-xl text-center mb-1">Modalidades</h1>
+          <h1 className="text-xl text-center mb-1">Produtos</h1>
           {PRODUCTS.map((product) => (
             <a href="#modality" key={product.id}>
               {product.title}
