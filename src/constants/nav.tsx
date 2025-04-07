@@ -3,12 +3,12 @@ export const NAV_BAR_ITEMS = {
     link: '/',
   },
   Produtos: {
-    link: '#modality',
-  },
-  'Sobre nós': {
     link: '#products',
   },
+  'Sobre nós': {
+    link: '#whoarewe',
+  },
   'Entre em contato': {
-    link: '#questions',
+    link: '#contact',
   },
 }

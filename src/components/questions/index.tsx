@@ -17,7 +17,15 @@ export const Questions = () => {
         <div className="w-full mt-20 flex items-center justify-center gap-1">
           <strong className="text-white font-tertiary">Ainda em dúvida?</strong>{' '}
           <p className="text-zinc-200">
-            Entre em <a className="underline">contato!</a>
+            Entre em{' '}
+            <a
+              href="https://wa.me/48998474237"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline"
+            >
+              contato!
+            </a>
           </p>
         </div>
       </div>
