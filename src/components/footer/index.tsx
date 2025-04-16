@@ -1,23 +1,16 @@
 import logo from '../../assets/footer/logo.png'
 import google from '../../assets/footer/google.png'
 import norton from '../../assets/footer/norton.png'
-import { PRODUCTS } from '../../constants/products'
+import { PreFooter } from './pre-footer'
 
 export const Footer = () => {
   return (
     <div className="flex flex-col w-full bg-gradient-to-b from-secondary to-primary">
-      <div className="p-10 border-t border-zinc-400 w-full flex justify-around sm:flex-row flex-col items-center gap-3 sm:items-start sm:gap-0">
+      <PreFooter />
+      <div className="p-10w-full flex justify-around sm:flex-row flex-col items-center gap-3 sm:items-start sm:gap-0">
         <img src={logo} alt="Via" className="w-[250px] my-auto" />
 
-        <div className="text-white flex flex-col items-center gap-2">
-          <h1 className="text-xl text-center mb-1">Produtos</h1>
-          {PRODUCTS.map((product) => (
-            <a href="#products" key={product.id}>
-              {product.title}
-            </a>
-          ))}
-        </div>
-        <section className="flex flex-col gap-2 p-5 rounded-md mt-[50px]">
+        <section className="flex flex-col gap-2 p-5 rounded-md">
           <h1 className="text-xl text-white">Segurança e Qualidade</h1>
           <div className="flex gap-6 w-full justify-center sm:justify-normal items-center">
             <a href="https://www.sslshopper.com/ssl-checker.html#hostname=dominio">

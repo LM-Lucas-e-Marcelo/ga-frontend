@@ -67,7 +67,7 @@ export const HeroForm = () => {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
     >
-      <h1 className="text-3xl leading-[30px] font-extrabold font-secondary text-white mb-[50px] text-center mt-[-40px]">
+      <h1 className="text-3xl leading-[30px] font-extrabold font-secondary text-white mb-[20px] text-center mt-[-20px]">
         Simule o seu
         <br />
         consórcio

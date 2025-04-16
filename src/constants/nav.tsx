@@ -1,5 +1,5 @@
 export const NAV_BAR_ITEMS = {
-  Inicio: {
+  Início: {
     link: '/',
   },
   Produtos: {

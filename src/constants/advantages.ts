@@ -16,4 +16,9 @@ export const ADVANTAGES = [
     icon: MdOutlineSecurity,
     description: 'Conquiste seu bem sem apertar o orçamento',
   },
+  {
+    title: 'Mais chances de contemplação',
+    icon: MdOutlineSecurity,
+    description: 'Estratégias que aceleram a sua conquista.',
+  },
 ]

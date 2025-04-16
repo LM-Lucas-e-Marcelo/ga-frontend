@@ -51,9 +51,9 @@ export const WhoAreWe = () => {
           initial={{ opacity: 0, x: 200 }}
           animate={{ opacity: isInView ? 1 : 0, x: isInView ? 0 : 200 }}
           transition={{ duration: 1 }}
-          className="md:ml-auto md:w-auto w-full"
+          className="md:ml-auto md:w-[40%] w-full"
         >
-          <div className="min-h-[550px] md:w-[400px] w-full bg-[url(/empresa.png)] bg-cover" />
+          <div className="min-h-[550px] md:w-[100%] w-full bg-[url(/empresa.png)] bg-cover" />
           <div className="pt-10 bg-[url(/hero.png)] overflow-hidden bg-center bg-cover">
             <p className="text-zinc-600 font-primary ml-[-20px] text-7xl m-0 md:block hidden">
               Sobre nós

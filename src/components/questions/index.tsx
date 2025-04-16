@@ -15,7 +15,9 @@ export const Questions = () => {
           <QuestionsComponent />
         </section>
         <div className="w-full mt-20 flex items-center justify-center gap-1">
-          <strong className="text-white font-tertiary">Ainda em dúvida?</strong>{' '}
+          <strong className="text-white font-tertiary">
+            Ainda tem dúvida?
+          </strong>{' '}
           <p className="text-zinc-200">
             Entre em{' '}
             <a
