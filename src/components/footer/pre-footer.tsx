@@ -6,7 +6,7 @@ export const PreFooter = () => {
     <div className="flex flex-col p-10">
       <section className="flex gap-10 flex-wrap justify-center md:justify-start">
         <div className="flex flex-col text-white text-lg">
-          <span className="ml-4">Regulizado</span>
+          <span className="ml-4">Regularizado</span>
           <img
             src={bancoCentral}
             alt="logo do banco central"
