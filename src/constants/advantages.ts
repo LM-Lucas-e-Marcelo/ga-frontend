@@ -1,4 +1,4 @@
-import { MdOutlineSecurity, LuBadgePercent } from '../assets/icons'
+import { MdOutlineSecurity, LuBadgePercent, PiStrategy } from '../assets/icons'
 
 export const ADVANTAGES = [
   {
@@ -18,7 +18,7 @@ export const ADVANTAGES = [
   },
   {
     title: 'Mais chances de contemplação',
-    icon: MdOutlineSecurity,
+    icon: PiStrategy,
     description: 'Estratégias que aceleram a sua conquista.',
   },
 ]

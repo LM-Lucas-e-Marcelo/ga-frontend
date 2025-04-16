@@ -6,7 +6,7 @@ export {
   IoSettingsOutline,
 } from 'react-icons/io5'
 export { TbPlaneDeparture, TbFileDollar } from 'react-icons/tb'
-export { PiHouseLineBold, PiTractor } from 'react-icons/pi'
+export { PiHouseLineBold, PiTractor, PiStrategy } from 'react-icons/pi'
 export { MdEmail, MdOutlineSecurity } from 'react-icons/md'
 export { LuBadgePercent, LuTruck } from 'react-icons/lu'
 export { FiUsers, FiX } from 'react-icons/fi'
