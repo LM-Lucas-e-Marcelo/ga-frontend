@@ -40,14 +40,6 @@ export const Contact = () => {
                   contato@geaconsorcios.com.br
                 </a>
                 <a
-                  href="mailto:diretoria@geaconsorcios.com.br"
-                  className="text-xl"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  diretoria@geaconsorcios.com.br
-                </a>
-                <a
                   href="mailto:contato@geaconsorcios.com.br"
                   className="text-xl"
                   rel="noopener noreferrer"
@@ -62,7 +54,7 @@ export const Contact = () => {
           <div className="flex flex-col p-6 h-[170px] border-l-1 border-b-0 border-zinc-500">
             <div className="flex flex-col">
               <strong className="text-xl font-tertiary">Horário:</strong>
-              <p className="text-xl">Segunda a Sexta das 8h às 18h</p>
+              <p className="text-xl">Segunda a Sexta das 8h às 18:30h</p>
             </div>
             <div className="flex gap-3 mt-5 ml-auto">
               <a
