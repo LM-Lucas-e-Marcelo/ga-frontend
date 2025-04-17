@@ -28,7 +28,7 @@ export const WhoAreWe = () => {
           <p className="text-lg">
             Somos uma administradora de consórcio comprometida em oferecer
             soluções inteligentes e seguras para quem deseja conquistar seus
-            objetivos com planejamento e estratégia
+            objetivos com planejamento e estratégia.
           </p>
           <p className="text-lg">
             Com uma trejetória sólida no mercado e uma equipe experiente,
@@ -39,12 +39,12 @@ export const WhoAreWe = () => {
             Nascemos da expertise em controladoria e gestão e evoluímos para
             entregar uma experiência completa no universo do consórcio. Com mais
             de 1800 clientes ativos, seguimos construindo histórias de conquista
-            ao lado de representantes e parceiros em todo o país
+            ao lado de representantes e parceiros em todo o país.
           </p>
           <p className="text-lg">
             Oferecemos uma estrutura moderna, plataforma integrada e suporte
             especializado, tornando o consórcio acessível, transparente e
-            alinhado com as necessidades do mercado atual
+            alinhado com as necessidades do mercado atual.
           </p>
         </motion.div>
         <motion.div

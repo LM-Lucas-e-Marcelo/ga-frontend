@@ -39,14 +39,6 @@ export const Contact = () => {
                 >
                   contato@geaconsorcios.com.br
                 </a>
-                <a
-                  href="mailto:contato@geaconsorcios.com.br"
-                  className="text-xl"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  contato@geaconsorcios.com.br
-                </a>
               </span>
             </div>
           </div>
