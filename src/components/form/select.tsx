@@ -22,7 +22,7 @@ export const Select = ({
       <select
         name={name}
         {...rest}
-        className="w-full bg-none text-white p-3 border border-white"
+        className="w-full bg-none text-zinc-200 p-3 border border-white"
       >
         {options.map(({ name, value }) => (
           <option key={value} value={value}>

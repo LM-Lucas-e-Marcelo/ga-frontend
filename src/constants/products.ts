@@ -5,7 +5,6 @@ import maquinario from '../assets/thumbnails/maquinario.png'
 import viagens from '../assets/thumbnails/viagens.png'
 import cirurgia from '../assets/thumbnails/cirurgia.png'
 
-
 export const PRODUCTS = [
   {
     id: 1,
@@ -25,7 +24,7 @@ export const PRODUCTS = [
   {
     id: 4,
     thumb: maquinario,
-    title: 'Maquinário',
+    title: 'Maquinários',
   },
   {
     id: 5,
@@ -35,6 +34,6 @@ export const PRODUCTS = [
   {
     id: 6,
     thumb: cirurgia,
-    title: 'Cirurgia',
+    title: 'Cirurgias',
   },
 ]
