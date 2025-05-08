@@ -32,12 +32,12 @@ export const Contact = () => {
               <strong className="text-xl font-tertiary">Email:</strong>
               <span className="flex flex-col">
                 <a
-                  href="mailto:contato@geaconsorcios.com.br"
+                  href="mailto:centraldeatendimento@geaconsorcios.com.br"
                   className="text-xl"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  contato@geaconsorcios.com.br
+                  centraldeatendimento@geaconsorcios.com.br
                 </a>
               </span>
             </div>
@@ -50,7 +50,7 @@ export const Contact = () => {
             </div>
             <div className="flex gap-3 mt-5 ml-auto">
               <a
-                href="mailto:contato@geaconsorcios.com.br"
+                href="mailto:centraldeatendimento@geaconsorcios.com.br"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="bg-black p-2 rounded-full"
