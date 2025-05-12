@@ -21,7 +21,7 @@ export const Questions = () => {
           <p className="text-zinc-200">
             Entre em{' '}
             <a
-              href="https://wa.me/48998474237"
+              href="https://api.whatsapp.com/send?phone=5508002020002"
               rel="noopener noreferrer"
               target="_blank"
               className="underline"
