@@ -32,12 +32,12 @@ export const Contact = () => {
               <strong className="text-xl font-tertiary">Email:</strong>
               <span className="flex flex-col">
                 <a
-                  href="mailto:centraldeatendimento@geaconsorcios.com.br"
+                  href="mailto:contato@geaconsorcios.com.br"
                   className="text-xl"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  centraldeatendimento@geaconsorcios.com.br
+                  contato@geaconsorcios.com.br
                 </a>
               </span>
             </div>
@@ -50,7 +50,7 @@ export const Contact = () => {
             </div>
             <div className="flex gap-3 mt-5 ml-auto">
               <a
-                href="mailto:centraldeatendimento@geaconsorcios.com.br"
+                href="mailto:contato@geaconsorcios.com.br"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="bg-black p-2 rounded-full"
@@ -58,7 +58,7 @@ export const Contact = () => {
                 <MdEmail size={20} className="text-white" />
               </a>
               <a
-                href="https://wa.me/48998474237"
+                href="https://api.whatsapp.com/send?phone=5508002020002"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="bg-black p-2 rounded-full"
